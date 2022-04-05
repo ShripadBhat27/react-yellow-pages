@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import signup from './signup.component'
 
 export default class Login extends Component {
     render() {
@@ -22,8 +24,12 @@ export default class Login extends Component {
                         <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
                     </div>
                 </div>
-
-                <button type="submit" className="btn btn-primary btn-block">Submit</button>
+                <Link className="nav-link" to={"/homepage"}>
+                <button type="submit" className="btn btn-primary btn-block"  >Submit  </button>
+            
+                </Link>
+                
+               
                 <p className="forgot-password text-right">
                     Forgot <a href="#">password?</a>
                 </p>
