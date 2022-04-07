@@ -25,11 +25,11 @@ export default class Login extends Component {
                     </div>
                 </div>
                 <Link className="nav-link" to={"/homepage"}>
-                <button type="submit" className="btn btn-primary btn-block"  >Submit  </button>
-            
+                    <button type="submit" className="btn btn-primary btn-block"  >Submit  </button>
+
                 </Link>
-                
-               
+
+
                 <p className="forgot-password text-right">
                     Forgot <a href="#">password?</a>
                 </p>

@@ -39,7 +39,7 @@ function Cards() {
               src='images/img5.jpg'
               text='From fresh fruits, vegetables to dairy, cereals & spices, we have the entire gamut of your grocery needs covered.'
               label='Your Local Kirana Store'
-              path='/sign-up'
+              path='/products'
             />
           </ul>
         </div>

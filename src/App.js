@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <div className="container">
-          <Link className="navbar-brand" to={"/sign-in"}>Yellow Pages</Link>
+          <Link className="navbar-brand" to={"/sign-in"}><h3>Yellow Pages</h3></Link>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
@@ -31,9 +31,9 @@ function App() {
             <Route exact path='/' component={Login} />
             <Route path="/sign-in" component={Login} />
             <Route path="/sign-up" component={SignUp} />
-            <Route path="/homepage" component={Homepage}/>
           </Switch>
         </div>
+        <Route path="/homepage" component={Homepage} />
       </div>
     </div></Router>
   );
