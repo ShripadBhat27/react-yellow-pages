@@ -13,13 +13,13 @@ function Cards() {
               src='images/img1.jpg'
               text='Car Repairs & sevices'
               label='Nakoda Motors'
-              path='/services'
+              path='/nakoda-motors'
             />
             <CardItem
               src='images/img2.jpg'
               text='Enjoy fresh & delicious Fruits Now. Order Online!'
-              label='Fruits & Vegetables'
-              path='/services'
+              label='Delicious Fruits World'
+              path='/delicious-fruits-world'
             />
           </ul>
           <ul className='cards__items'>
@@ -27,19 +27,19 @@ function Cards() {
               src='images/img3.jpg'
               text='Beaty Parlours, Bridal Makeup, Hair Stylists'
               label='Rejoice Beaty Saloon'
-              path='/services'
+              path='/rejoice-beaty-saloon'
             />
             <CardItem
               src='images/img4.jpg'
               text='A lot can happen over Coffee!'
               label='Cafe Coffee Day'
-              path='/products'
+              path='/cafe-coffee-day'
             />
             <CardItem
               src='images/img5.jpg'
               text='From fresh fruits, vegetables to dairy, cereals & spices, we have the entire gamut of your grocery needs covered.'
-              label='Your Local Kirana Store'
-              path='/products'
+              label='Royal Kirana Store'
+              path='/royal-kirana-store'
             />
           </ul>
         </div>

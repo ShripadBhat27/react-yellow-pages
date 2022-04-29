@@ -16,8 +16,8 @@
   font-size: calc(10px + 2vmin);
   color: rgb(255, 255, 255);
   font-family: 'Trebuchet MS',
-  'Lucida Sans Unicode','Lucida Grande',
-  'Lucida Sans',Arial,sans-serif;
+    'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 .App-link {

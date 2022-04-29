@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import signup from './signup.component'
+import SignUp from './signup.component'
 
 export default class Login extends Component {
     render() {
@@ -29,9 +29,11 @@ export default class Login extends Component {
 
                 </Link>
 
-
-                <p className="forgot-password text-right">
-                    Forgot <a href="#">password?</a>
+                
+                <p className="forgot-password">
+                    <a className="signup">
+                        Not Registered <a href="/sign-up">SignUp</a>
+                    </a>
                 </p>
             </form>
         );
