@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
 export default class SignUp extends Component {
     render() {
@@ -26,14 +25,10 @@ export default class SignUp extends Component {
                     <label>Password</label>
                     <input type="password" className="form-control" placeholder="Enter password" />
                 </div>
-                <Link className="nav-link" to={"/sign-in"}>
-                    <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
-                </Link>
-                <p className="sign-in-forgot-password">
-                    Already registered <a href="/sign-in">sign in?</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="/forgotpassword"> Forgot Password ?</a>
+
+                <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
+                <p className="forgot-password text-right">
+                    Already registered <a href="#">sign in?</a>
                 </p>
             </form>
         );
