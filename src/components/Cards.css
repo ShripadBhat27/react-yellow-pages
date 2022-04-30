@@ -36,9 +36,9 @@ h1 {
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.25);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.17));
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
@@ -63,10 +63,10 @@ h1 {
   margin-left: 10px;
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: #429dff;
   box-sizing: border-box;
 }
 
@@ -95,8 +95,8 @@ h1 {
 
 .cards__item__text {
   color: #252e48;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 @media only screen and (min-width: 1200px) {
